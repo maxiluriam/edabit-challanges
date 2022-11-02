@@ -66,7 +66,7 @@ else if(!code.includes(".")) {
             for (let k = 0; k < polybiusSquare[j].length; k++) {
                 
 
-                if (polybiusSquare[j][k] === code[i] ) {
+                if (polybiusSquare[j][k] === code[i].toLowerCase() ) {
                     parsedArray = [...parsedArray , j + 1 , k + 1  ]
                 }
             
@@ -95,7 +95,7 @@ else if(!code.includes(".")) {
 }
 
 
-console.log(tapCode("break"))
+console.log(tapCode("jag"))
 
 console.log(tapCode(".... ... ... ..... . ..... ... ... .... ...."))
 
