@@ -1,4 +1,4 @@
-function tapCode(code) {
+export default function tapCode(code) {
   let polybiusSquare = [
     ["a", "b", "k", "d", "e"],
     ["f", "g", "h", "i", "j"],

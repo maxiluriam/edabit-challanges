@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="./js/foursquareencrypt.js" defer></script>
+    <script type="module" src="./js/foursquaredecrypt.js" defer></script>
+
+    <script type="module" src="./js/script.js" defer></script>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" id="foursquarecipher">
+      <input required id="encrypt" name="encryptdecrypt" type="radio">encrypt</input>
+      <input required id="decrypt" name="encryptdecrypt" type="radio">decrypt</input>
+
+      <input placeholder="0-25" required id="key1" type="number" />
+      <input placeholder="0-25" required id="key2" type="number" />
+      <input placeholder="message" required id="message" type="text" />
+
+      <button type="submit">submit</button>
+    </form>
+
+
+    <h1 id="output" ></h1>
+  </body>
+</html>
